@@ -139,6 +139,7 @@ img{
         transition: .5s;
         backdrop-filter: blur(10px);
     }
+
 }
 .nav__item{
     margin-bottom: var(--mb-4);
@@ -208,6 +209,12 @@ img{
     right: 0;
     bottom: 0;
     width: 295px;
+}
+
+@media screen and (max-width: 768px) {
+    .home__title {
+        font-size: 4.15rem;
+    }
 }
 
 /* ===== ABOUT =====*/
